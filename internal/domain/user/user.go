@@ -1,9 +1,9 @@
 package domain
 
 type User struct {
-	ID       int
-	Email    string
-	Password string
+	ID       int    `json:"id"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
 }
 
 func NewUser(id int, email string, password string) *User {
