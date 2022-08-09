@@ -14,6 +14,8 @@ dev:
     host: ""
     maxOpenConnection: 5
     maxIdleConnection: 2
+  mongodb:
+    connectionString: "test"
 
 stage:
   server:

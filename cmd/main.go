@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	config := configuration.NewConfigurationManager("./internal/infrastructure/resource", "application")
+	config := configuration.NewConfigurationManager("internal/infrastructure/resource", "application")
 
 	userRepository := repository.NewUserRepository(config.GetMongoDbConfig().ConnectionString)
 	userService := services.NewUserService(userRepository)
