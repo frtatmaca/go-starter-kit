@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run go-starter-kit - DEV" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="go-starter-kit" />
+    <working_directory value="$PROJECT_DIR$" />
+    <envs>
+      <env name="ACTIVE_PROFILE" value="dev" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="go-starter-kit/cmd" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>

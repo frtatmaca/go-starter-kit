@@ -1,0 +1,56 @@
+dev:
+  server:
+    port: :5001
+  log:
+    level: "INFO"
+    address: ""
+    facility: ""
+    appName: ""
+    activeProfile: dev
+  database:
+    username: ""
+    password: ""
+    database: ""
+    host: ""
+    maxOpenConnection: 5
+    maxIdleConnection: 2
+
+stage:
+  server:
+    port: :5001
+  kafka:
+    version: "2.2.0"
+    auditTopic: ""
+  log:
+    level: "INFO"
+    address: ""
+    facility: ""
+    appName: ""
+    activeProfile: stage
+  database:
+    username: ""
+    password: ""
+    database: ""
+    host: ""
+    maxOpenConnection: 200
+    maxIdleConnection: 50
+
+prod:
+  server:
+    port: :5001
+  kafka:
+  log:
+    level: "ERROR"
+    address: ""
+    facility: ""
+    appName: ""
+    domain: ""
+    activeProfile: prod
+  database:
+    username: ""
+    password: ""
+    database: ""
+    host: ""
+    maxOpenConnection: 5
+    maxIdleConnection: 2
+
